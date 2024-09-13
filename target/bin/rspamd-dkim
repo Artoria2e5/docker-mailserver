@@ -52,6 +52,9 @@ ${ORANGE}EXAMPLES${RESET}
     ${LWHITE}setup config dkim keysize 1024 selector 2023-dkim${RESET}
         Creates 1024-bit sized keys, and changes the DKIM selector to '2023-dkim'.
 
+    ${LWHITE}setup config dkim keytype ed25519 selector mail-ed25519${RESET}
+        Creates ed25519 keys, and changes the DKIM selector to 'mail-ed25519'.
+
     ${LWHITE}setup config dkim domain example.com${RESET}
         Generate the DKIM key for a different domain (example.com).
 
